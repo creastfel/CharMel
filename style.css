@@ -1,0 +1,54 @@
+.navigation ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigation a{
+    color: yellow;
+    display:block;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: rgb(117, 117, 74);
+}
+.navigation li{
+    float: left;
+    margin: 30px;
+    font-size: 25px;
+}
+body{
+    background-image: url(BackgroundFinal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.categories{
+    display: inline;
+}
+@keyframes slideLeft{
+    from{transform: translateX(1000px);}
+}
+.categories{
+   display:inline;
+}
+.Poeple{
+    margin-right: 100px;
+}
+.Pvid{
+    opacity: 50%;
+}
+.CandFcat{
+    margin-left: 20px;
+}
+.lastCat{
+    margin-right: 19px;
+}
+
+
+
+
+
+
