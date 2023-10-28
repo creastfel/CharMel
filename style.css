@@ -26,6 +26,7 @@ body{
     background-size: cover;
 }
 .categories{
+    margin-top: 100px;
     display: inline;
 }
 @keyframes slideLeft{
@@ -34,17 +35,18 @@ body{
 .categories{
    display:inline;
 }
-.Poeple{
-    margin-right: 100px;
-}
+
 .Pvid{
-    opacity: 50%;
+    opacity: 0%;
 }
 .CandFcat{
     margin-left: 20px;
 }
 .lastCat{
     margin-right: 19px;
+}
+.categories:hover .Pvid{
+    opacity: 50%;
 }
 
 
